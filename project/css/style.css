@@ -1,0 +1,118 @@
+.body{
+    margin: 0;
+    font-family: lato;
+    font-style: lato;
+
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.content-center{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    outline: 1px solid #fff;
+}
+.btn{
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+.page-header{
+    background-color: #222222;
+}
+.page-header svg{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.page-header-list button:hover{
+    fill: orange;
+}
+.page-header-list{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.page-header-list-left{
+    width: 111px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: block;
+    width: 44px;
+    height: 38px;
+    text-decoration: none;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+.page-header-search{
+    width: 26px;
+    height: 26px;
+}
+.page-header-search svg{
+    fill: #fff;    
+}
+.page-header-list-right{
+    width: 168px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-btn{
+    width: 32px;
+    height: 23px;
+}
+.menu-btn svg{
+    fill: #fff;
+}
+.account-btn{
+    width: 29px;
+    height: 29px;
+}
+.account-btn svg{
+    fill: #fff;
+}
+.cart-btn{
+    width: 32px;
+    height: 29px;
+    position: relative;
+}
+.cart-btn:hover svg{
+    fill: orange;    
+}
+.cart-btn svg{
+    fill: #fff;    
+}
+.cart-btn span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19px;
+    height: 19px;
+    background-color: #F16D7F;
+    border-radius: 50%;  
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF; 
+    position: absolute;
+    top: -8px;
+    right: -10px;
+}
+.page-title{
+    background-color: #F1E4E6;
+}
+.page-title-box{
+    min-height: 764px;
+    background-image: url(../img/title-img.png);
+}
